@@ -13,13 +13,13 @@ namespace VendingMachineBussinesLogic
         [Tooltip("recomended 5")]
         private int ProductsCount;
 
-        [SerializeField] private List<GameObject> productsInSlot = new List<GameObject>();
+        public List<GameObject> productsInSlot = new List<GameObject>();
         
         [SerializeField]
         [Tooltip("recomended 0.1f")]
-        private float spacing = 0.1f;
+        public float spacing = 0.1f;
 
-        [SerializeField] private string SlotNumber;
+        public string SlotNumber;
 
         void Start()
         {

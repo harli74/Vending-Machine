@@ -33,6 +33,9 @@ namespace VendingMachineBussinesLogic
         {
             letter = GetComponentInChildren<TextMeshPro>().text;
             FindObjectOfType<Display>().UpdateDisplayCodeInputs(letter);
+            FindObjectOfType<VendingMachine>().GetProductFromVendingMachine();
+
+
         }
         private void PutMoneyInVendingMachineButton()
         {
