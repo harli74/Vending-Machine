@@ -11,9 +11,10 @@ namespace PlayerController
         public RawImage interactCursor;
         public Text moneyRepresentingText;
 
-        private void Start()
+
+        private void Update()
         {
-            moneyRepresentingText.text = $"Money: {GetComponent<CameraController>().Money}";
+            moneyRepresentingText.text = $"Money: {GetComponent<CameraController>().Money.ToString("F2")}";
         }
 
     }

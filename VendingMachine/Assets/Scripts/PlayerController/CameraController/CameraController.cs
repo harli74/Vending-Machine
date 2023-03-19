@@ -45,6 +45,7 @@ namespace PlayerController
                 Debug.Log("Hit object: " + hit.collider.gameObject.name);
                 if(hit.collider.gameObject.tag == "Interactable")
                 {
+                    InputMouseButtonForInteraction(hit);
                     CursorUpdate(true);
                 }
                 else
@@ -64,6 +65,14 @@ namespace PlayerController
             {
                 GetComponent<InteractUI>().normalCursor.enabled = true;
                 GetComponent<InteractUI>().interactCursor.enabled = false;
+            }
+        }
+        public void InputMouseButtonForInteraction(RaycastHit hit)
+        {
+            if(Input.GetMouseButtonDown(0))
+            {
+                
+                hit.collider.GetComponent<MachineButton>().ButtonPressed();
             }
         }
     }

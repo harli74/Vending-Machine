@@ -79,6 +79,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\VendingMachineBussinesLogic\Slot.cs" />
+    <Compile Include="Assets\Scripts\VendingMachineBussinesLogic\Buttons\MachineButton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
@@ -92,9 +93,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\Scripts\VendingMachineBussinesLogic\Buttons\MachineButton.cs" />
-    <Compile Include="Assets\Scripts\VendingMachineBussinesLogic\Buttons\MachineInsertMoneyButton.cs" />
-    <Compile Include="Assets\Scripts\VendingMachineBussinesLogic\Buttons\MachineWithdrowMoneyButton.cs" />
+    <Compile Include="Assets\Scripts\VendingMachineBussinesLogic\Display\Display.cs" />
+    <Compile Include="Assets\Scripts\VendingMachineBussinesLogic\VendingMachine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Import\Lays_Classic__HD_Textures__FREE_Download!\license.txt" />
