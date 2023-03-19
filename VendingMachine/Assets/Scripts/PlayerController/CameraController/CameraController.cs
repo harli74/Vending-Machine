@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VendingMachineBussinesLogic;
 
 namespace PlayerController
 {
     public class CameraController : MonoBehaviour
     {
+        public float Money;
         [SerializeField] private float sensitivity = 2.5f;
         [SerializeField] private float yMin = -80f;
         [SerializeField] private float yMax = 80f;
@@ -41,6 +43,27 @@ namespace PlayerController
                 //todo
                 //if press leftMouseButton Interact();
                 Debug.Log("Hit object: " + hit.collider.gameObject.name);
+                if(hit.collider.gameObject.tag == "Interactable")
+                {
+                    CursorUpdate(true);
+                }
+                else
+                {
+                    CursorUpdate(false);
+                }
+            }
+        }
+        public void CursorUpdate(bool Interactable)
+        {
+            if (Interactable)
+            {
+                GetComponent<InteractUI>().normalCursor.enabled = false;
+                GetComponent<InteractUI>().interactCursor.enabled = true;
+            }
+            else
+            {
+                GetComponent<InteractUI>().normalCursor.enabled = true;
+                GetComponent<InteractUI>().interactCursor.enabled = false;
             }
         }
     }
