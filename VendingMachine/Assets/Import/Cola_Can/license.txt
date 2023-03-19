@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cola Can
+* source:	https://sketchfab.com/3d-models/cola-can-7100e240888a4c259d14aaf46bb20537
+* author:	Bob (https://sketchfab.com/MeBob)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cola Can" (https://sketchfab.com/3d-models/cola-can-7100e240888a4c259d14aaf46bb20537) by Bob (https://sketchfab.com/MeBob) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

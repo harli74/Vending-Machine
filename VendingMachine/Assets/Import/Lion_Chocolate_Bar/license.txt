@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lion Chocolate Bar
+* source:	https://sketchfab.com/3d-models/lion-chocolate-bar-763f75c215104d89ae17d752da2164ba
+* author:	Qlone (https://sketchfab.com/Qlone)
+
+Model License:
+* license type:	CC-BY-ND-4.0 (http://creativecommons.org/licenses/by-nd/4.0/)
+* requirements:	Author must be credited. Modified versions can not be distributed. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lion Chocolate Bar" (https://sketchfab.com/3d-models/lion-chocolate-bar-763f75c215104d89ae17d752da2164ba) by Qlone (https://sketchfab.com/Qlone) licensed under CC-BY-ND-4.0 (http://creativecommons.org/licenses/by-nd/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Water Bottle
+* source:	https://sketchfab.com/3d-models/water-bottle-5bd2910a237f4f4b976e8a0cd8165972
+* author:	Seven.Four (https://sketchfab.com/seven.four)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Water Bottle" (https://sketchfab.com/3d-models/water-bottle-5bd2910a237f4f4b976e8a0cd8165972) by Seven.Four (https://sketchfab.com/seven.four) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
